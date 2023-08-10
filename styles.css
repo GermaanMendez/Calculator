@@ -12,6 +12,7 @@ body,html{
 }
 
 .calculatorContainer{
+    background-color: rgb(10, 10, 10);
     width: 33%;
     height: 80%;
     flex-direction: column;
