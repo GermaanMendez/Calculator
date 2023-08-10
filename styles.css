@@ -104,7 +104,18 @@ body,html{
 }
 
 /* WIDTH RESPONSIVE */
-@media screen and (min-width: 320px) and (max-width: 550px) {
+@media screen and (min-width: 300px) and (max-width: 450px) {
+    .calculatorContainer{
+        width: 100%;
+    }
+    .displayContainer{
+        width:65%
+    }
+    .buttonsContainer{
+        width: 85%;
+    }
+}
+@media screen and (min-width: 450px) and (max-width: 550px) {
     .calculatorContainer{
         width: 100%;
     }
