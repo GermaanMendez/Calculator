@@ -1,0 +1,67 @@
+body,html{
+    background-color: black;
+    height: 99%;
+    width: 99%;
+}
+.root{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+
+.calculatorContainer{
+    background-color: green;
+    width: 33%;
+    height: 80%;
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.buttonsContainer{
+    height: 65%;
+    width: 80%;
+    background-color: yellow;
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+    align-items: flex-end;
+}
+.numberButtons{
+    width: 70%;
+    height: 100%;
+    background-color: orange;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    gap: 3%;
+}
+.grid-item {
+    grid-column: span 1; /* Por defecto, los elementos ocupan una columna */
+}
+.grid-item.large {
+    grid-column: span 2; /* Elemento grande que ocupa dos columnas */
+}
+.numberButtons button{
+    width: 100%;
+    background-color: red;
+}
+button{
+    padding: 5px;
+    margin-top:10%;
+    background-color: green;
+}
+.displayContainer{
+    background-color: grey;
+    width: 80%;
+    justify-content: center;
+    text-align: right;
+}
+.displayContainer div,h2{
+    margin: 0;
+}
+.displayContainer h2{
+    margin-right: 10%;
+}
